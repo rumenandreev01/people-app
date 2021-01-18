@@ -20,7 +20,7 @@ export default function DataTable() {
       fetchData();
      
       
-  },[])
+  },[peopleData])
 
    
   
@@ -37,7 +37,7 @@ export default function DataTable() {
         }
 
         setPeopleData1(tempArray)
-        refresh()       
+       // refresh()       
     }
 
     function sortByAge() {
@@ -50,7 +50,7 @@ export default function DataTable() {
         }
 
         setPeopleData1(tempArray);       
-        refresh()       
+        //refresh()       
     }
 
     function sortByStatus() {
@@ -63,7 +63,7 @@ export default function DataTable() {
         }
 
         setPeopleData1(tempArray);       
-        refresh()       
+        //refresh()       
     }
     
      
